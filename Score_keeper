@@ -1,0 +1,57 @@
+
+#writing the file to strore the users score
+with open('score_keeperU.txt', 'w+') as text_file:
+    tally = ('')
+    text_file.write(tally)
+
+#writing the file to store the computers score
+with open('score_keeperC.txt', 'w+') as text_file:
+    tally = ('')
+    text_file.write(tally)
+#I think these files may contain tuples not lists
+
+#function to edit the users score file
+def score_editorU(x):
+    with open('score_keeperU.txt', 'r') as score_file:
+        score = score_file.read()
+    added = x
+    score = score + added + '\n'
+    with open('score_keeper1.txt.txt', 'w+') as score_file:
+        score_file.write(score)
+        print('You currently have a score of:')
+        print(score)
+
+
+def score_editorC(x):
+    with open('score_keeperC.txt', 'r') as score_file:
+        score = score_file.read()
+    added = x
+    score = score + added + '\n'
+    with open('score_keeper1.txt.txt', 'w+') as score_file:
+        score_file.write(score)
+        print('I currently have a score of:')
+        print(score)
+#The print statement in the fucntion would not allow me to use .format
+
+
+#variables that will be set in at the end of each game by if statements
+computer_score= '1'
+user_score = '2'
+
+#use of variables as arguments in the functions
+score_editorC(computer_score)
+score_editorU(user_score)
+
+#if statements at the end of games to determine the winner
+if user_score > computer_score:
+    print('You are the winner!')
+elif user_score < computer_score:
+    print('I have won')
+else:
+    print('We have drawn!')
+
+
+cs_2 = '2'
+us_2 ='1'
+score_editorC(cs_2)
+score_editorU(us_2)
