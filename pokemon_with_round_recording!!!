@@ -1,0 +1,129 @@
+import random
+import requests
+from time import sleep
+
+# these are the beginning scores and the round number.
+
+computer_score = 0
+person_score = 0
+rounds = 1
+
+while True:
+    print("******************* ROUND #", rounds, "*******************")
+    sleep(1)
+
+
+    # this is the code that offers the player 3 random cards
+
+    def card_select():
+        id_number = random.randint(1, 151)
+        url = 'http://pokeapi.co/api/v2/pokemon/{}/'.format(id_number)
+        response = requests.get(url)
+        card = response.json()
+
+        return {
+            'name': card['name'],
+            'id': card['id'],
+            'height': card['height'],
+            'weight': card['weight'],
+        }
+
+
+    Dealt_hand = [card_select(), card_select(), card_select()]
+
+    for e, c in enumerate(Dealt_hand):
+        print('{} Name: {}'.format(e, c['name']))
+        print(' ID: {} '.format(c['id']))
+        print('Height: {} '.format(c['height']))
+        print("""Weight: {}
+             ...""".format(e, c['weight']))
+
+    # This lets the player pick the card they want to play with
+
+    card_chosen = input('Which card do you choose to play with? 0-2: ')
+    if card_chosen == '0':
+        player_card = Dealt_hand[0]
+    elif card_chosen == '1':
+        player_card = Dealt_hand[1]
+    elif card_chosen == '2':
+        player_card = Dealt_hand[2]
+    else:
+        print("Sorry that selection was invalid. Enter a value in the range")
+
+    print('You have chosen: {}'.format(player_card['name']));
+
+    # this section lets the player choose a stat
+
+    sleep(1)
+    print("    ")
+
+    chosen_stat = input('Which stat from this card do you choose to play with?: ')
+    if chosen_stat == 'id':
+        user_stat = player_card['id']
+        print('You have a stat of {}'.format(user_stat));
+        sleep(1)
+    elif chosen_stat == 'height':
+        user_stat = player_card['height']
+        print('You have a stat of {}'.format(user_stat));
+        sleep(1)
+    elif chosen_stat == 'weight':
+        user_stat = player_card['weight']
+        print(user_stat)
+    else:
+        print('Please can you type the exact name of the stat, all lower case');
+        sleep(1)
+
+    print("   ")
+
+    # Comp chooses a card to play
+
+    computer_card = card_select()
+    print('I am using the {} card'.format(computer_card['name']));
+    sleep(1)
+
+    computer_stat = computer_card[chosen_stat]
+
+    print('I have a stat of {}'.format(computer_stat));
+    sleep(1)
+
+    print("   ")
+
+    # now the 2 stats are compared and a winner is determined. It also updates the score counter and the round counter.
+
+    if computer_stat > user_stat:
+        computer_score += 1
+        rounds += 1
+        print('I have won this round!')
+
+
+    elif computer_stat < user_stat:
+        person_score += 1
+        rounds += 1
+        print('Well done you have won this round!')
+
+
+    else:
+        rounds += 1
+        print('We have drawn this round')
+
+    print("Your score:", person_score)
+    print("Computer's score:", computer_score)
+    print("   ")
+    sleep(2)
+
+# these are the conditions for the end of the game and the messages for when the game ends.
+    if person_score == 3:
+        print("Congratulations on winning!!")
+        print("You beat the computer!!!!")
+        print("This is the end of the game.")
+        break
+    elif computer_score == 3:
+        print("Oh no!")
+        print("the computer beat you :(")
+        print("This game is over, but you can always try again!")
+        break
+
+
+
+
+
