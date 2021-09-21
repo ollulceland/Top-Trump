@@ -7,7 +7,7 @@ Our original plan for the project was to create a small game where players compa
 After completion of the required tasks, we have also used the Star Wars API for extension.
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
 ### The basic flow of the game is: 
-1. Player A are given a random card with different stats
+1. One player is given a random card with different stats
 2. Select one of the card's stats
 3. Another random card is selected for your opponent (the computer)
 4. The stats of the two cards are compared
@@ -24,7 +24,7 @@ After completion of the required tasks, we have also used the Star Wars API for 
 
 ### Extension work:
 * With our [pokemon_with_round_recording!!!](https://github.com/ollulceland/Top-Trump/blob/main/pokemon_with_round_recording!!!) file, players are able to play multiple rounds and record the outcome of each round. The player with most number of rounds won,wins the game:satisfied:
-* With [STAR WARS FINAL CODE](https://github.com/ollulceland/Top-Trump/blob/main/STAR%20WARS%20FINAL%20CODE) file, our players could pick a stat that they prefer to play against the evil computer empire(the component) in our Star Wars Top Trump:sunglasses:
+* With [FINAL_CODE](https://github.com/ollulceland/Top-Trump/blob/main/FINAL_CODE) file, our players could pick a stat that they prefer to play against the evil computer empire(the component) in our Star Wars Top Trump:sunglasses:
 
 
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
