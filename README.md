@@ -22,6 +22,10 @@ After completion of the required tasks, we have also used the Star Wars API for 
 5. Ask the user which stat they want to use (id, height or weight)
 6. Compare the player's and opponent's Pokemon on the chosen stat to decide who wins
 
+### Extension work:
+With our [a link](https://github.com/ollulceland/Top-Trump/blob/main/pokemon_with_round_recording!!!)pokemon_with_round_recording!!! file, players are able to play multiple rounds and record the outcome of each round. The player with most number of rounds won,wins the game:satisfied:
+
+
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
 ### Some resources that we have used:
 
