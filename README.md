@@ -3,8 +3,8 @@
 This is the final project of _Code First: Girls x Coding Kickstarter - (Remote) Introduction to Python Programming_
 Our original plan for the project was to create a small game where players compare stats, similar to the Top Trumps card game using the Pokemon API. 
 
-After completion of the required tasks, we have also used the Star Wars API for extension.
 ![picture alt](https://user-images.githubusercontent.com/67553615/134175182-c4b0e910-4f58-4533-bbe3-407a6cbbb697.jpg "Pokemon API")
+After completion of the required tasks, we have also used the Star Wars API for extension.
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
 ### The basic flow of the game is: 
 1. You are given a random card with different stats
