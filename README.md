@@ -24,7 +24,7 @@ After completion of the required tasks, we have also used the Star Wars API for 
 
 ### Extension work:
 * With our [pokemon_with_round_recording!!!](https://github.com/ollulceland/Top-Trump/blob/main/pokemon_with_round_recording!!!)file, players are able to play multiple rounds and record the outcome of each round. The player with most number of rounds won,wins the game:satisfied:
-* With [Final.py]file(https://github.com/ollulceland/Top-Trump/blob/main/Final.py), our players could pick a stat that they prefer to play against the evil computer empire(the component) in our Star Wars Top Trump:sunglasses:
+* With [Final.py](https://github.com/ollulceland/Top-Trump/blob/main/Final.py)file, our players could pick a stat that they prefer to play against the evil computer empire(the component) in our Star Wars Top Trump:sunglasses:
 
 
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
