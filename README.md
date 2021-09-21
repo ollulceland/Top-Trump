@@ -26,11 +26,9 @@ https://pokeapi.co/)
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
 ### Resources that we have used:
 
-#### Pokemon API
-**Homepage** http://pokeapi.co/
+**Pokemon API** http://pokeapi.co/
 
-#### Star Wars API
-**Homepage** http://swapi.co/
+**Star Wars API** http://swapi.co/
 **Documentation** http://swapi.co/documentation
 ![Star-wars-logo-new-tall](https://user-images.githubusercontent.com/67553615/134176087-309e50ed-68c6-4ad8-8c89-aeb48126b025.jpg)
 
