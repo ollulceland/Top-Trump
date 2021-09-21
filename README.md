@@ -22,7 +22,12 @@ https://pokeapi.co/)
 6. Compare the player's and opponent's Pokemon on the chosen stat to decide who wins
 
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
-### Useful Resources 
+### Resources that we have used:
+
+#### Pokemon API
+* **Homepage** http://pokeapi.co/
+* ![picture alt](http://via.placeholder.com/200x150 "Pokemon API")
+#### Star Wars API
 * **Homepage** http://swapi.co/
 * **Documentation** http://swapi.co/documentation
 
