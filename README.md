@@ -7,8 +7,8 @@ Our original plan for the project was to create a small game where players compa
 After completion of the required tasks, we have also used the Star Wars API for extension.
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
 ### The basic flow of the game is: 
-1. You are given a random card with different stats
-2. You select one of the card's stats
+1. Player A are given a random card with different stats
+2. Select one of the card's stats
 3. Another random card is selected for your opponent (the computer)
 4. The stats of the two cards are compared
 5. The player with the stat higher than their opponent wins
@@ -32,6 +32,7 @@ https://pokeapi.co/)
 #### Star Wars API
 * **Homepage** http://swapi.co/
 * **Documentation** http://swapi.co/documentation
+![Star-wars-logo-new-tall](https://user-images.githubusercontent.com/67553615/134176087-309e50ed-68c6-4ad8-8c89-aeb48126b025.jpg)
 
 
 
