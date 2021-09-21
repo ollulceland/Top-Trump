@@ -23,8 +23,8 @@ https://pokeapi.co/)
 
 - - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - - -- - 
 ### Useful Resources 
-_Homepage_ url:http://swapi.co/
-_Documentation_ url://http://swapi.co/documentation
+* **Homepage http://swapi.co/
+* **Documentation http://swapi.co/documentation
 
 
 
