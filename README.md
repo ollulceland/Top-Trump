@@ -1,6 +1,6 @@
 # Top-Trump #
 ## Project Brief 
-This is the final project of _Code First: Girls x Coding Kickstarter_ - (Remote) Introduction to Python Programming
+This is the final project of _Code First: Girls x Coding Kickstarter - (Remote) Introduction to Python Programming_
 Our original plan for the project was to create a small game where players compare stats, similar to the Top Trumps card game using the Pokemon API. 
 After completion of the required tasks, we have also used the Star Wars API for extension.
 
