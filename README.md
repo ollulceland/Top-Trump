@@ -27,7 +27,7 @@ https://pokeapi.co/)
 
 #### Pokemon API
 * **Homepage** http://pokeapi.co/
-* ![picture alt](http://via.placeholder.com/200x150 "Pokemon API")
+* ![picture alt](https://user-images.githubusercontent.com/67553615/134175182-c4b0e910-4f58-4533-bbe3-407a6cbbb697.jpg "Pokemon API")
 #### Star Wars API
 * **Homepage** http://swapi.co/
 * **Documentation** http://swapi.co/documentation
